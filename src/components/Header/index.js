@@ -23,6 +23,9 @@ export default function Header({ totalItems }) {
         boxShadow="sm"
         background="#000"
       >
+        <Box width="full" bg="white" color="black" textAlign="center">
+          <p>This site is currently still under development.</p>
+        </Box>
         <Container
           maxW={{ lg: "1200px" }}
           px={[4, 4, 6]}
